@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter:5.9.0',
+            'org.assertj:assertj-core:3.23.1',
+            'com.codeborne:xls-test:1.4.3',
+            'com.codeborne:pdf-test:1.7.0',
+            'com.opencsv:opencsv:5.7.0',
+            'com.fasterxml.jackson.core:jackson-core:2.13.4',
+            'com.fasterxml.jackson.core:jackson-databind:2.13.4'
+    )
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,7 @@
+{
+  "name": "cyberpunk 2077",
+  "price": 60,
+  "available": true,
+  "version": 1.6,
+  "functions": ["buy", "setup", "play", "delete"]
+}
